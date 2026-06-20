@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unfiltered GPT</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="glow glow1"></div>
+<div class="glow glow2"></div>
+
+<nav>
+    <div class="logo">
+        Unfiltered GPT
+    </div>
+
+    <div class="credits">
+        Credits: <span id="credits">60</span>
+    </div>
+</nav>
+
+<section class="hero">
+    <h1>
+        No Filters.<br>
+        No Limits.
+    </h1>
+
+    <p>
+        The most advanced unrestricted AI experience.
+    </p>
+</section>
+
+<section class="chat-section">
+
+    <div id="chatBox">
+
+        <div class="bot-message">
+            Welcome. Ask anything.
+        </div>
+
+    </div>
+
+    <div class="input-container">
+
+        <input
+            id="userInput"
+            type="text"
+            placeholder="Ask anything..."
+        >
+
+        <button onclick="sendMessage()">
+            Send
+        </button>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
